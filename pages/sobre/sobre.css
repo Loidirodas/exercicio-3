@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(59, 58, 58);
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 15px; 
+    font-family: "Sedan", serif;
+    
+}
+.voltar{
+    position: absolute;
+    top: 30px;
+    color:rgb(86, 86, 202)
+}
+.conteudo {
+    background-color: black;
+    padding: 20px;
+    color: white;
+
+}
+img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width:250px;
+    height:250px;
+}
+
+.conteudo ul{
+    list-style-type: none;
+}
+.conteudo li{
+    border-bottom:2px dotted;
+    margin-bottom:10px;
+    padding: 10px;
+}
+
+.conteudo button{
+    background-color:dodgerblue;
+    width: 100%;
+    height: 40px;
+    border-radius:10px;
+    border: 0;
+    color: white;
+    cursor:pointer
+}
+
+.conteudo button:hover{
+    background-color:antiquewhite;
+    color:black 
+}

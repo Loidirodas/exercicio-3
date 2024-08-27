@@ -1,0 +1,96 @@
+body {
+    background-color:hsl(208, 100%, 97%);
+    color:black;
+    justify-content: center;
+    align-items: center;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+a {
+    text-align: left;
+    color: black;
+    text-decoration:0;
+    padding: 15px;
+    font-size: 20px;
+}  
+a:hover{
+    color: #4CAF50;
+}
+.conteudo{
+    border-top: 3px solid #b4b0b0;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+
+
+} 
+.conteudo .titulo{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+  
+
+}
+.cg{
+    padding: 15px;
+    text-align: center;
+    width: 600px;
+   
+}
+.local{
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    color: chartreuse;
+    font-weight: bold;
+    font-size: 30px;
+}
+.img{
+    width: 100%;
+
+
+
+}
+.img img{
+    width:100%;
+    border-radius: 15px;
+   
+}
+.compre a{
+    color:chartreuse
+}
+.compre{
+    margin: 10px;
+}
+.qtd input{
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.concluir{
+    margin: 10px;
+}
+.concluir button{
+    background-color: chartreuse;
+    border: 0;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    font-size: 25px;
+}
+.concluir button:hover{
+    background: #b4b0b0;
+}
