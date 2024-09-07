@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(236, 236, 236);
+    color:aliceblue;
+    justify-content: center;
+    align-items: center;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 20px;
+}
+
+.topo {
+    background-color: black;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+  
+}
+
+.primeira{
+    display: flex;
+    align-items: center;
+}
+.primeira img{
+    width: 28px;
+}
+a {
+    text-align: left;
+    color: aliceblue;
+    text-decoration:0;
+    padding: 15px;
+    font-size: 20px;
+    background-color: black;
+    
+   
+}  
+a:hover{
+    color: #6d4e74;
+}
+
+.conteudo{
+    width: 100%;
+   
+} 
+
+.local-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.card{
+    margin: 15px;
+    border: 1px solid #d593e2;
+    border-radius: 15px;
+    background-color: rgb(223, 220, 220);
+    padding: 15px;
+
+}
+
+.img{
+    width: 200px;
+    
+}
+
+.img img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 10px;
+    color: #6d4e74
+}
+
+.descricao{
+    text-align: center;
+    color: #6d4e74;
+    max-width: 200px;
+
+}
+
+.meio{
+    justify-content: center;
+    background-color:  rgb(223, 220, 220);
+    border-top: 1px solid #d593e2;
+}
+
+.nome{
+    text-align:start;
+    color: #6d4e74;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sobre{
+    color: #6d4e74;
+    margin-top: 10px;
+
+}
